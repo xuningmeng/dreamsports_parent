@@ -1,0 +1,19 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: microservice-zuul-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: gateway-9999.com
+    prefer-ip-address: false #是否显示在注册中心
+zuul:
+  routes:
+    plat.serviceId: employee-provider #要访问的服务，会有别名取代它，不容易被破解
+    plat.path: /emp/**
+  ignored-services: "*" #用*来通配符，忽略从9527端口通过服务名来调用
+  prefix: "/services" #这是所有路径的前缀
+    #http://localhost:9999/services/emp/employee

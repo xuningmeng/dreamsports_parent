@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dreamsports_base_util/dreamsports_base_util.iml" filepath="$PROJECT_DIR$/dreamsports_base_util/dreamsports_base_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dreamsports_parent.iml" filepath="$PROJECT_DIR$/dreamsports_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dreamsports_plat_parent/dreamsports_plat_parent.iml" filepath="$PROJECT_DIR$/dreamsports_plat_parent/dreamsports_plat_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dreamsports_server_7001/dreamsports_server_7001.iml" filepath="$PROJECT_DIR$/dreamsports_server_7001/dreamsports_server_7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dreamsports_zuul_9999/dreamsports_zuul_9999.iml" filepath="$PROJECT_DIR$/dreamsports_zuul_9999/dreamsports_zuul_9999.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dreamsports_plat_parent/plat_interface/plat_interface.iml" filepath="$PROJECT_DIR$/dreamsports_plat_parent/plat_interface/plat_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dreamsports_plat_parent/plat_service_8001/plat_service_8001.iml" filepath="$PROJECT_DIR$/dreamsports_plat_parent/plat_service_8001/plat_service_8001.iml" />
+    </modules>
+  </component>
+</project>
